@@ -1,0 +1,21 @@
+.main__exchange-container__tables {
+    display: flex;
+    gap: 33px;
+    margin: 0 auto;
+}
+.plans-container__cards-slider {
+    justify-content: center;
+}
+
+@media (min-width: 832px) {
+    .product-detail__cards {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 849px;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+    .product-detail__cards .card-detail {
+        margin: 0;
+    }
+}
